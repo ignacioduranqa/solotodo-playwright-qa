@@ -1,0 +1,27 @@
+
+# Dependencias
+node_modules/
+
+# Credenciales privadas
+.env
+.env.*
+!.env.example
+
+# Resultados y evidencias
+/test-results/
+/playwright-report/
+/playwright-report-auth/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Caso reservado para futuras versiones
+/tests/price-history.spec.ts
+
+# Archivos temporales
+*.log
+menu-debug.png
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
